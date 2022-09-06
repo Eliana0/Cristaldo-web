@@ -2,26 +2,75 @@ body {
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
-    font-family: fantasy;
   }
+header{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
 nav{
     background-color: grey;
-  }
+}
 nav ul a{
     display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
 }
 nav ul a:hover{
     color: antiquewhite;
 }
+main{
+    margin-top: 50px;
+}
+main h2{
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    color: rgb(149, 149, 218);
+}
 main a{
-    color:black;
+    color: black;
+}
+main a:hover{
+    color: rgb(108, 189, 16);
+}
+.item{
+    scroll-margin-top: 60px;
+    margin-bottom: 25%;
+}
+#saludo h6{
+    margin: 2%;
+    text-align: center;
+}
+#info{
+    margin-bottom: 30%;
+}
+#info b{
+    color: rgb(149, 149, 218);
+}
+#info ul{
+    margin-top: 15%;
+}
+#info ul li{
+    margin: 4%;
+}
+.imgTecnologias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .cursosImgs{
-    width: 250px;
+    width: 230px;
 }
 .cursosImg{
-    width: 100px;
+    width: 90px;
+}
+#sobreMi p{
+     padding: 3%;
 }
 .proyectoImg{
-    width: 30%;
+    width: 40%;
+}
+.imgProyectos{
 }
